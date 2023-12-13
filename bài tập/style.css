@@ -1,0 +1,129 @@
+html{
+    font-size: 62.5%;
+}
+* {
+box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+img {
+display: block;
+max-width: 100%;
+}
+body{
+    width: 100rem;
+    height: 100rem;
+}
+.text-gardient{
+    display: inline-block;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to left, #ff4895, #ffd96a);
+}
+.button-green{
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-align: center;
+    border-radius: 6px;
+    margin: 2rem;
+    color: white;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #50cfc6, #68ecac);
+    font-size: 1,2rem;
+    box-shadow: 0 0 10px 0 #68ecac;
+    
+}
+.button-blu{
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-align: center;
+    border-radius: 6px;
+    margin: 2rem;
+    color: white;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #A3DFFF,#68ADEA);
+    font-size: 1,2rem;
+    box-shadow: 0 0 10px #68ADEA ;
+}
+.button-puple{
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-align: center;
+    border-radius: 6px;
+    margin: 2rem;   
+    color: white;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left,#A8B4FF,#A47FEF);
+    font-size: 1,2rem;
+    box-shadow: 0 0 10px #A47FEF;
+}
+.button-orange{
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 3rem;
+    color: white;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left,#EFC084,#E48A50);
+    font-size: 1,2rem;
+    box-shadow: 0 0 10px #E48A50;
+}
+.button-red{
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-align: center;
+    border-radius: 6px;
+    margin: 2rem;
+    color: white;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left,#EFAD9A,#D45C5C);
+    font-size: 1,2rem;
+    box-shadow: 0 0 10px #D45C5C;
+}
+.button-violet{
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-align: center;
+    border-radius: 6px;
+    margin: 2rem;
+    color: white;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left,#EE94A6,#E06A84);
+    font-size: 1,2rem;
+    box-shadow: 0 0 10px #E06A84;
+}
+
+.color_item{
+     width: 10rem;
+     height: 15rem;
+     border: radius 4px;
+     margin-left: 2rem;
+     margin-bottom: 2rem;
+     display: inline-block;
+}
+
+.color_item:first-child{
+    background: color #a248f0; 
+}
+.color_item:nth-child(2){
+    background-color: #38dbb2;
+}
+.color_item:nth-child(3){
+  background-color: #ff4895;  
+}
+.color_item:nth-last-child(2)
+{
+    background-color: #A8B4FF;
+}
+.color_item:last-child{
+    background-color: aqua;
+}
